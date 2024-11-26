@@ -1,5 +1,3 @@
-لینک دوره آموزش HTML و CSS با 20 ساعت پروژه طراحی سایت هاستینگ :  [daneshjooyar](https://www.daneshjooyar.com/html-css-vip/?utm_source=daneshjooyar&utm_medium=search&utm_campaign=quick-search)
-
 قالب سایت طراحی شده با HTML And CSS :
 
 

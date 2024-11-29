@@ -1,9 +1,19 @@
+@font-face {
+     font-family: 'hrd-aviny';
+    src: url('../fonts/Aviny.woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
+p{
+    margin: 0px;
+    padding: 0px;
+}
 a{
     text-decoration: none;
     color: red;
@@ -130,11 +140,114 @@ ul{
     margin-top: 15px;
 }
 .sj-center-header .sj-header-logo{
-    width: 30%;
+    width: 20%;
     height: auto;
     float: right;
 }
 figure{
     margin: 0;
     padding: 0 ;
+}
+.sj-center-header-main-menu{
+    width: 80%;
+    height: auto;
+    float: right;
+
+}
+.sj-center-header-main-menu .sj-center-header-main-menu-ul{
+    width: 100%;
+    height: auto;
+    float: right;
+    padding-right: 450px;
+    box-sizing: border-box;
+
+}
+.sj-center-header-main-menu-ul li a{
+    margin-left: 25px;
+    position: relative;
+
+}
+.sj-center-header-main-menu-ul li a{
+    color: white;
+    font-size: 18px;
+
+}
+.sj-center-header-main-menu-ul li a:hover{
+    color: red;
+
+
+}
+.sj-center-header-child-menu{
+    /*display: none;*/
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition-duration: max(2s);
+
+}
+.sj-center-header-child-menu li{
+    color: white;
+    width: 150px;
+    top: 30px;
+    right: 0;
+    background: navy;
+    padding: 10px;
+
+
+}
+.sj-center-header-child-menu li:hover a{
+    color: #ff6a00; !important;
+
+
+}
+.sj-center-header-main-menu-ul li:hover .sj-center-header-child-menu{
+    visibility:visible ;
+    opacity: 1;
+
+}
+.sj-center-header-child-menu li{
+
+    display: block;
+    padding: 6px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+     text-align: center;
+}
+.sj-center-menu-childmenu-li{
+    background: #ff6a00;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    text-align: center !important;
+    color: white;
+
+}
+.sj-center-menu-childmenu-li i{
+    margin-right: 5px;
+    text-align: center !important;
+    color: white;
+}
+.sj-header-content-right{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 145px;
+}
+.sj-header-content-right-p{
+    color: #E1852D;
+    font-size: 45px;
+    font-family: hrd-aviny ;
+}
+.sj-header-content-right-p2{
+    color: #37426C;
+    font-size: 80px;
+    font-family: hrd-aviny ;
+}
+.sj-header-content-right-p3{
+    color: #A5A5BA;
+    font-size: 45px;
+    font-family: hrd-aviny ;
+    margin-top: 15px;
+    line-height: 38px;
 }

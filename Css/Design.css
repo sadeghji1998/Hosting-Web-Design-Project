@@ -370,3 +370,60 @@ figure{
     font-family: hrd-aviny;
     color: #37426C;
 }
+.sj-content-one-left-box-a{
+    background: darkred;
+    color: white;
+    padding: 20px 30px;
+    float: right;
+    border-radius: 35px;
+    margin-top: 25px;
+    font-size: 20px;
+
+}
+.sj-content-one-left-box-a:hover{
+    background: #37426C;
+    color: white;
+}
+.sj-content-one-right .sj-content-box-right{
+    width: 50%;
+    height: auto;
+    float: right;
+    display: inline;
+}
+.sj-content-one-right .sj-content-box-left{
+    width: 50%;
+    height: auto;
+    float: left;
+    display: inline;
+    margin-top: 50px;
+}
+.sj-box-content-right{
+    width: 200px;
+    height: auto;
+    padding: 40px 20px;
+    box-shadow: 0 0 15px 5px #e0dcdc;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.sj-box-content-right:hover{
+background: #37426C;
+    color: white;
+}
+.sj-box-content-right figure img{
+    margin: 0 auto;
+    display: table;
+    margin-bottom: 20px;
+}
+.sj-content-box-right{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+.sj-content-box-left{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}

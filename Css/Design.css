@@ -326,11 +326,12 @@ figure{
 /* شروع کدنویسی پایین هدر سایت */
 .sj-content-one{
     width: 100%;
-    height: 950px;
+    height: 750px;
     float: right;
     background-image: url("../Images/bg-content-one.png");
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 30px;
 
 
 }
@@ -406,7 +407,7 @@ figure{
     margin-top: 20px;
 }
 .sj-box-content-right:hover{
-background: #37426C;
+    background: #37426C;
     color: white;
 }
 .sj-box-content-right figure img{
@@ -427,3 +428,196 @@ background: #37426C;
     text-align: center;
     font-family: sans-serif;
 }
+/* پایان کدنویسی پایین هدر سایت */
+/*شروع کدنویسی بخش لیست قیمت ها*/
+.sj-price-list{
+    width: 100%;
+    height: 950px;
+    float: right;
+    background-image: url("../Images/pic-list-price.png");
+    background-repeat: no-repeat ;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+.sj-container-p1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff6a00;
+}
+.sj-container-p1:hover a {
+    color: darkred;
+}
+.sj-list-price-box{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-top: 40px;
+}
+.sj-box-list-price{
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 80px 110px;
+    background: white;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 11px #dedede;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.sj-box-list-price .sj-box-list-price-content{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.sj-box-list-price-img figure{
+    width: 100%;
+    height: auto;
+    float: right;
+}
+.sj-box-list-price .sj-box-list-price-img{
+    width: 40%;
+    height: auto;
+    float: left;
+
+
+}
+.sj-box-list-price-img figure img{
+    width: 80%;
+    float: left;
+
+}
+.sj-content-p1{
+    color: #2D6DF2;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.sj-content-p2{
+    color: black;
+    font-size: 25px;
+
+}
+.sj-content-p3{
+    color: #2D6DF2;
+    font-size: 25px;
+
+}
+.sj-content-p4{
+    color: darkred;
+    font-size: 35px;
+
+}
+.sj-content-a{
+    padding: 16px 50px;
+    border: 1px solid #ddd;
+    float: right;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px 5px #dedede;
+    color: black;
+
+}
+.sj-content-a:hover{
+    background-color: darkred;
+    color: white;
+}
+/*پایان کدنویسی بخش لیست قیمت ها*/
+
+
+/*شروع کدنویسی بخش پایین*/
+.sj-guidance{
+    width: 100%;
+    float: right;
+    height: auto;
+   padding: 100px 0px;
+}
+
+
+.sj-guidance-img-right{
+    width: 30%;
+    height: auto;
+    float: right;
+
+}
+.sj-guidance-text-left{
+     width: 70%;
+    height: auto;
+    float: left;
+}
+.sj-content-guidance{
+    width: 100%;
+    height: auto;
+    float: right;
+    padding: 0px 50px ;
+    margin-top: 20px;
+}
+.sj-guidance .sj-content-guidance-p1{
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+}
+.sj-guidance .sj-content-guidance-p2{
+    color: #0f34a9;
+    font-size: 50px;
+    font-weight: bold;
+}
+.sj-guidance .sj-content-guidance-p3{
+    font-size: 30px;
+}
+.sj-content-guidance-box{
+    width: 100%;
+    height: auto;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.sj-content-guidance-article1{
+    width: 300px;
+    display: inline;
+    float: right;
+    padding: 15px;
+    box-shadow: 0px 0px 8px 5px #f4f4f4;
+
+}
+
+.sj-content-guidance-article2{
+    width: 300px;
+    display: inline;
+    float: right;
+    padding: 15px;
+    margin-right: 60px;
+    box-shadow: 0px 0px 8px 5px #f4f4f4;
+}
+.sj-content-guidance-box .sj-content-guidance-pic{
+    width: 30%;
+    height: auto;
+    float: right;
+}
+.sj-content-guidance-box .sj-content-guidance-text{
+    width: 70%;
+    height: auto;
+    float: right;
+}
+.p1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #37426C;
+    text-align: center;
+
+}
+.p2{
+    font-size: 28px;
+    text-align: center;
+}
+.p3{
+    font-size: 25px;
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
